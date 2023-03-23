@@ -48,3 +48,19 @@
    - go ro browserlist website and check for the descriptions to put
    - We can put country specific in browserslist
    -
+
+# episode-03: Laying the foundation
+
+1. added start and build in scripts - package.json
+   - easy to run the application, npm run start/npm start, npm build
+2. installed .babelrc to remove console
+3. JSX - javascript XML (but nowhere find this fullform)
+   - It is easy to use and write react elements
+   - Easy to read the code, maintable
+   - JSX ==> React.createElement (using babel) ==> Object ==> HTML (DOM)
+   - JSX is HTML like syntax not html inside javascript.
+   - if multiple lines, then it should be enclosed with parenthesis ().
+4. Functional component
+   - It is a javascript function at the end
+   - it returns some piece of JSX
+   - can be accessed using < functional_component_name /> / {functional_Comp_Name()}
