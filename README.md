@@ -47,3 +47,4 @@
 7. browserslist in package.json
    - go ro browserlist website and check for the descriptions to put
    - We can put country specific in browserslist
+   -
