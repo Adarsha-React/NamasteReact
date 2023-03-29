@@ -9,16 +9,18 @@ import Contact from "./components/Contact";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Shimmer from "./components/Shimmer";
+import { Provider } from "react-redux";
+import { Store } from "@reduxjs/toolkit";
 
 const About = lazy(() => import("./components/About"));
 
 const AppLayout = () => {
   return (
-    <>
+    <Provider store={Store}>
       <Header />
       {<Outlet />}
       <Footer />
-    </>
+    </Provider>
   );
 };
 
